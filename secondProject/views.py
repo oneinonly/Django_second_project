@@ -6,6 +6,9 @@ def home(req):
 def about(req):
     return render(req, 'About.html')
 
+def index_view(request):
+    return render(request, "index.html")
+
 
 def contact(req):
     context = {

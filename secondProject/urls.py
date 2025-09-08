@@ -25,5 +25,6 @@ urlpatterns = [
     path('contact/', views.contact),
     path('candidate/', views.candidate_view, name='candidate'),
     path("marksheet/", views.marksheet_view, name="marksheet"),
-     path("admitcard/", views.admitcard_view, name="admitcard"),
+    path("admitcard/", views.admitcard_view, name="admitcard"),
+    path("index/", views.index_view, name="index"), 
 ]
